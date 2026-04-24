@@ -1,0 +1,5 @@
+google-genai
+requests
+pydantic
+firebase-admin
+python-dotenv

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547259836004",
+    "project_id": "pulseroute-gsc",
+    "storage_bucket": "pulseroute-gsc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547259836004:android:1ad14a24e275486a876171",
+        "android_client_info": {
+          "package_name": "com.rvce.pulseroute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdaNlcflzdauuh_1c3IqcArTmqbMMYIBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
