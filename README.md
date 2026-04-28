@@ -103,6 +103,8 @@ Note: To view the Admin Panel, navigate to http://localhost:[port]/#/admin in yo
 🚀 Deployment
 This project is configured for continuous deployment via Firebase Hosting.
 
+Live Prototype link : https://pulseroute-gsc.web.app/
+
 To deploy a new build to the web:
 
 Bash
