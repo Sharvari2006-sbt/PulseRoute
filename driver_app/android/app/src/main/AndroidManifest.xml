@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rvce.pulseroute">
 
     <uses-permission android:name="android:permission.INTERNET"/>
     <uses-permission android:name="android:permission.ACCESS_FINE_LOCATION"/>
@@ -37,8 +38,8 @@
         android:value="2" />
 
         <meta-data
-        android:name="com.google.android.geo.API_KEY"
-        android:value="APIkeyinsert"/>
+    android:name="com.google.android.geo.API_KEY"
+    android:value="${MAPS_API_KEY}"/>
     </application>
 
     <queries>

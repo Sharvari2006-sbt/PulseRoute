@@ -1,1 +1,37 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"pulseroute-gsc","appId":"1:547259836004:android:1ad14a24e275486a876171","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"pulseroute-gsc","configurations":{"android":"1:547259836004:android:1ad14a24e275486a876171","ios":"1:547259836004:ios:c43aa75e982aa679876171","web":"1:547259836004:web:06a489a99f2ea12b876171"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pulseroute-gsc",
+          "appId": "1:547259836004:android:1ad14a24e275486a876171",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pulseroute-gsc",
+          "configurations": {
+            "android": "1:547259836004:android:1ad14a24e275486a876171",
+            "ios": "1:547259836004:ios:c43aa75e982aa679876171",
+            "web": "1:547259836004:web:06a489a99f2ea12b876171"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
